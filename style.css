@@ -171,6 +171,9 @@ footer {
 	
 	.days-label{
 		float:none;
+		margin:auto 0;
+		text-align:center;
+		padding:0;
 	}
 	
 	.seconds {
