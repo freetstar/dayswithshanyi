@@ -141,7 +141,7 @@ footer {
 	.days-label{
 		float:left;
 		text-align:left;
-		padding-left:0.2em;
+		margin-left:0.7em;
 	}
 
 	.seconds {
@@ -152,6 +152,10 @@ footer {
 	
 	.text{
 		padding-top:0.2em;
+	}
+	
+	footer {
+	 	text-align: center; 
 	}
 	
 }
