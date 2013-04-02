@@ -159,3 +159,31 @@ footer {
 	}
 	
 }
+
+@media screen and (max-width: 480px){
+	body {
+		
+	}
+	
+	.days {
+		font-size: 10em;
+		float:none;
+	}
+	
+	.days-label{
+		text-align:center;
+		float:none;
+		margin:auto;
+	}
+	
+	.seconds {
+	    font-size: 1.45em;
+		padding-top:1em;
+	}
+	
+	.container {
+		padding-top: 6em;
+		padding-bottom: 6em;
+	}
+	
+}
