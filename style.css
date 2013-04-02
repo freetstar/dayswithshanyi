@@ -33,6 +33,7 @@
 
 .container {
     position: absolute;
+	/* background:#95cbb6;*/
 }
 
 
@@ -58,12 +59,23 @@
 }
 
 @media screen and (max-width: 768px) {
+	.days {
+		font-size: 20em;
+	}
+	
 	.days-label{
 		float:left;
 		text-align:left;
+		padding-left:0.2em;
 	}
 
-	.text{
+	.seconds {
+	    font-size: 1.45em;
+		padding-top:18.1em;
+	}
 
+	
+	.text{
+		padding-top:0;
 	}
 }
