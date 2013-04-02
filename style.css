@@ -1,3 +1,57 @@
+/* Global Reset
+------------------------------------------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;}
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+
+/*My Style Sheet*/
+body {
+	background:#f85f6c;
+}
 .days {
     font-size: 23em;
     font-family: Helvetica, Arial, sans-serif;
@@ -11,6 +65,7 @@
     font-family: Helvetica, Arial, sans-serif;
 	float:right;
 	margin-top:0.4em;
+	padding-right:0.3em;
 	text-align:center;
 }
 
@@ -32,9 +87,29 @@
 }
 
 .container {
-    position: absolute;
-	/* background:#95cbb6;*/
+	background:#f85f6c;
+	width: 100%;
+	padding-top: 6em;
+	padding-bottom: 15em;
+	color:#fff;
 }
+
+
+
+footer {
+	background:#e33f52;
+ 	padding: 3em;
+ 	text-align: right; 
+	color:#9d2c39;
+	width:auto;}
+    footer a {
+      color: #f85f6b;
+      font-weight: 700; 
+  	  text-decoration:none;
+	}
+      footer a:hover {
+        color: #000; }
+
 
 
 @media screen and (max-width: 1024px) {
@@ -71,11 +146,12 @@
 
 	.seconds {
 	    font-size: 1.45em;
-		padding-top:18.1em;
+		padding-top:15.8em;
 	}
 
 	
 	.text{
-		padding-top:0;
+		padding-top:0.2em;
 	}
+	
 }
